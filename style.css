@@ -34,16 +34,22 @@ body.dark {
 	text-align: center;
 }
 
+#achievements ul, 
+#projects ul {
+	list-style-position: inside;
+	padding: 0;
+}
+
+#achievements, 
+#projects {
+    text-align: center;
+}
+
 #achievements ul,
 #projects ul {
-	width: 60%;
-    text-align: justify;
+    display: inline-block; 
+    text-align: left;
     padding: 0;
     margin: 0 auto;
     list-style-position: inside;
-}
-
-#achievements li, 
-#projects li {
-    text-align: center;
 }
