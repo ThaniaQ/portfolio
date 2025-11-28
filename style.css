@@ -29,8 +29,8 @@ body.dark {
 	color: #f5f5f5;
 }
 
-#achievements, 
-#projects {
+#achievements h2, 
+#projects h2 {
 	text-align: center;
 }
 
