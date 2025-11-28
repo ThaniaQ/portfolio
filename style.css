@@ -23,6 +23,15 @@ button {
 	cursor: pointer;
 }
 
+#achievements, #projects {
+    text-align: center;
+}
+
+#achievements ul, #projects ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
 /* Dark Theme */
 body.dark {
 	background-color: #121212;
