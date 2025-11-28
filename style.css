@@ -39,9 +39,8 @@ body.dark {
 #achievements ul,
 #projects ul {
     text-align: left;
-    padding: 0 10px;
-    margin: 0 auto;
+    padding: 20px;
+    margin: 0;
     list-style-position: inside;
-	max-width: 100px;
-	box-sizing: border-box;
+	max-width: 75px;
 }
