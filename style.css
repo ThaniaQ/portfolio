@@ -29,22 +29,21 @@ body.dark {
 	color: #f5f5f5;
 }
 
-#achievements h2, 
-#projects h2 {
+#achievements, 
+#projects {
 	text-align: center;
 }
 
 #achievements ul,
 #projects ul {
-    display: inline-block;
-	width: 65%;
+	width: 60%;
     text-align: justify;
     padding: 0;
     margin: 0 auto;
     list-style-position: inside;
 }
 
-#achievements, 
-#projects {
+#achievements li, 
+#projects li {
     text-align: center;
 }
