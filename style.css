@@ -45,4 +45,5 @@ body.dark {
 	max-width: 600px;
 	width: 100%;
 	box-sizing: border-box;
+	margin-bottom: 8px;
 }
