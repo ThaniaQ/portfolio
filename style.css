@@ -1,7 +1,8 @@
 /* Default Light Theme */
 body {
-	font-family: Arial, sans-serif;
-	background-color: #f5f5f5;
+	/*font-family: Arial, sans-serif;*/
+	font-family: monospace;
+	background-color: #f5f1e1;
 	color: #333;
 	margin: 0;
 	padding: 20px;
@@ -21,6 +22,7 @@ button {
 	padding: 10px 20px;
 	margin-top: 10px;
 	cursor: pointer;
+	border-radius: 5%;
 }
 
 /* Dark Theme */
@@ -29,11 +31,13 @@ body.dark {
 	color: #f5f5f5;
 }
 
-/* Sorry po sir, used a bit of AI to be able to make the long block of texts readable on both my phone and desktop  */
+body.dark #theme-toggle src:first-child{
+	display: none;
+}
 
 #achievements,
 #projects {
-    display: flex;
+    /*display: flex;*/
 	justify-content: center;
 	margin-bottom: 30px;
 }
@@ -48,4 +52,29 @@ body.dark {
 	width: 100%;
 	box-sizing: border-box;
 	line-height: 1.5;
+}
+
+#tasks {
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+#tasks ul{
+	text-align: left;
+    padding: 20px;
+    margin: 0 auto;
+    list-style-position: inside;
+	max-width: 600px;
+	width: 100%;
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .features {
+    flex-direction: column;
+  }
+  .feature-card {
+    margin: 10px 0;
+  }
 }
